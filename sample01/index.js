@@ -14,6 +14,9 @@ window.onload = function() {
    
      // パーティクル設定
      let particleAmount = 100; // パーティクル数
+     if (canvasWidth < 768) {
+      particleAmount = 50;
+     }
      let particleWidth = 30; // サイズ変化幅
      let particleBase = 5; // ベースサイズ
      let colors = ['#40acf5', '#3ba7f4', '#bddcf6', '#68c6f9', '#bddcf6']; // 色をランダムに決める

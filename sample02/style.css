@@ -123,6 +123,7 @@ body {
 	#canvas-txt p {
 		font-size: 40px;
 		padding-left: 5%;
+		top: -40px;
 	}
 
 	.logo {
