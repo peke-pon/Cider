@@ -17,7 +17,7 @@ let context = canvas.getContext( '2d' );
 
 // ウィンドウサイズを取得する
 let canvasWidth = canvasWrap.offsetWidth;
-let canvasHeight = canvasWrap.offsetHeight; 
+let canvasHeight = canvasWrap.offsetHeight;
 // キャンバスをウィンドウサイズに設定
 canvas.setAttribute("width", canvasWidth); 
 canvas.setAttribute("height", canvasHeight);

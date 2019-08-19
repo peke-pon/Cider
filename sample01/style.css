@@ -12,12 +12,14 @@ body {
 html,
 body {
 	height: 100%;
+	overflow: hidden;
 }
 
 #canvasWrap {
 	width: 100%;
 	height: 100%;
 	position: relative;
+	overflow: hidden;
 }
 
 #canvas-txt {
@@ -58,6 +60,7 @@ body {
 	position: absolute;
 	bottom: -2px;
 	right: 6px;
+	
 }
 
 .sub:after {
@@ -100,6 +103,7 @@ canvas {
 	animation-iteration-count: infinite;
 	position: relative;
 	z-index: -1;
+	overflow: hidden;
 }
 
 @keyframes ca {
@@ -113,5 +117,23 @@ canvas {
 
 	100% {
 		transform: scale(1.05);
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#canvas-txt p {
+		font-size: 60px;
+		padding-left: 5%;
+	}
+
+	.logo {
+		left: 15px;
+	}
+
+	.sub:after {
+		transform: rotate(55deg);
+		bottom: -360px;
+		right: -360px;
+
 	}
 }
