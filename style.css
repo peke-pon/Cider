@@ -388,19 +388,23 @@ footer {
     top: 12px;
   }
 
+  .navWrapper {
+    padding-left: 15px;
+  }
+
   #menu-icon {
     position: absolute;
     top: -12px;
-    right: -12px;
+    right: -16px;
     display: inline;
     cursor: pointer;
   }
 
   #menu-icon span {
     border: 2px solid #fff;
-    width: 28px;
+    width: 26px;
     border-radius: 2px;
-    margin-bottom: 7px;
+    margin-bottom:6px;
     display: block;
     transition: .1s;
   }
@@ -426,10 +430,10 @@ footer {
     display: block;
     content: '';
     position: absolute;
-    top: -15px;
-    right: -12px;
-    width: 55px;
-    height: 55px;
+    top: -14px;
+    right: -11px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
     background-color: #45d6caed;
     z-index: -1;
