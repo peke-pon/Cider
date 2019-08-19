@@ -258,6 +258,7 @@ footer {
   left: 0px;
   background: url(images/Slack.svg) no-repeat;
   background-size: 150px 50px;
+  transition: 0.2s;
 }
 
 .twiiter:before {
@@ -268,7 +269,8 @@ footer {
   position: relative;
   left: -15px;
   background: url(images/Twitter.png) no-repeat;
-  background-size: 30px
+  background-size: 30px;
+  transition: 0.2s;
 }
 
 .github:before {
@@ -280,7 +282,12 @@ footer {
   top: -3px;
   left: 0px;
   background: url(images/github.png) no-repeat;
-  background-size: 29px
+  background-size: 29px;
+  transition: 0.2s;
+}
+
+.slack:hover:before,.twiiter:hover:before,.github:hover:before {
+  transform: scale(1.1);
 }
 
 #canvas-wrap {
