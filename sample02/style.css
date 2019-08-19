@@ -53,12 +53,12 @@ body {
 .sub:before {
 	display: block;
 	content: '';
-	width: 60px;
+	width: 65px;
 	height: 6px;
 	background: #fff;
 	position: absolute;
 	bottom: -2px;
-	right: 6px;
+	right:2px;
 }
 
 .sub:after {
