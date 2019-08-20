@@ -82,6 +82,10 @@ body {
 	z-index: 1000;
 }
 
+.log a {
+display: block;
+}
+
 .logo:after {
 	display: block;
 	content: '';
