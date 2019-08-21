@@ -74,7 +74,7 @@ function bubble() {
     requestAnimFrame(splash);
     context.clearRect(0, 0, canvasWidth, canvasHeight);
     
-    for (var i = 0; i < density; i++) {
+    for (let i = 0; i < density; i++) {
       particles[i].position.y -= particles[i].speed;
       particles[i].circle();
     }
@@ -85,18 +85,18 @@ function bubble() {
 // particle ///////////////////////////////////////// //
 
 window.onload = function () {
-  var canvasWrap = document.querySelector('#canvas-wrap');
-  var canvas = document.querySelector('#canvas-container');
-  var context = canvas.getContext('2d');
-  var center = {};
+  let canvasWrap = document.querySelector('#canvas-wrap');
+  let canvas = document.querySelector('#canvas-container');
+  let context = canvas.getContext('2d');
+  let center = {};
 
-  var particles = [];
-  var amount = 60;
-  var colors = ['#69c6f8', '#42acf4', '#cae3f7', '#a0c6ff', '#69b3f8'];
-  var size = 10;
-  var speed = 35;
+  let particles = [];
+  let amount = 60;
+  let colors = ['#69c6f8', '#42acf4', '#cae3f7', '#a0c6ff', '#69b3f8'];
+  let size = 10;
+  let speed = 35;
 
-  var Pt = function () {
+  let Pt = function () {
     this.size = Math.floor(Math.random() * 30) + size; 
     this.color = colors[~~(Math.random() * colors.length)]; 
     this.speed = this.size / speed; 
@@ -106,8 +106,8 @@ window.onload = function () {
       y: Math.random() * canvas.height
     };
 
-    var deg = Math.random() * 360;
-    var rad = deg * Math.PI / 180;
+    let deg = Math.random() * 360;
+    let rad = deg * Math.PI / 180;
 
     this.vec = {
       x: Math.cos(rad) * this.speed,
@@ -145,7 +145,7 @@ window.onload = function () {
     requestAnimFrame(update);
 
     context.clearRect(0, 0, context.canvas.width, context.canvas.height);
-    for (var i = 0; i < amount; i++) {
+    for (let i = 0; i < amount; i++) {
       particles[i].update();
       particles[i].draw();
     }
@@ -158,7 +158,7 @@ window.onload = function () {
     center.x = canvas.width / 2;
     center.y = canvas.height / 2;
 
-    for (var i = 0; i < amount; i++) {
+    for (let i = 0; i < amount; i++) {
       particles.push(new Pt());
     }
     update();
