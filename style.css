@@ -216,14 +216,20 @@ nav ul li a:hover {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   z-index: 5;
-  bottom: 25px;
+  bottom: -70px;
   left: 0;
   width: 100%;
   background: transparent;
   color: #fff;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 1400px) {
+  footer {
+    bottom: 0;
+  }
 }
 
 .footerArea {
