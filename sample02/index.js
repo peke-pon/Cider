@@ -56,8 +56,6 @@ window.onload = function () {　// 非サポート時実行しない
 
   function loop() {
 
-    requestAnimFrame(loop);
-
     context.clearRect(0, 0, canvasWidth, canvasHeight);
 
     for (var i = 0; i < particleAmount; i++) {
@@ -66,6 +64,7 @@ window.onload = function () {　// 非サポート時実行しない
 
       if (particles[i].position.y > canvasHeight) particles[i].position.y = -30;
     }
+    requestAnimFrame(loop);
   }
 
   loop();

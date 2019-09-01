@@ -113,7 +113,7 @@ window.onload = function () {
       x: Math.cos(rad) * this.speed,
       y: Math.sin(rad) * this.speed
     };
-    
+
     this.pos.x += this.vec.x * (Math.random() * center.x);
     this.pos.y += this.vec.y * (Math.random() * center.y);
   };
