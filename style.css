@@ -142,6 +142,10 @@ nav ul li a:hover {
   z-index: 2;
 }
 
+@media only screen and (max-width: 1400px) {
+  .mainInner{margin-top: 12vh;}
+}
+
 .mainInner h2 {
   color: #ffffff;
   font-size: 70px;
