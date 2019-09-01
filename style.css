@@ -142,7 +142,7 @@ nav ul li a:hover {
   z-index: 2;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   .mainInner{margin-top: 5vh;}
 }
 
