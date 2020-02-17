@@ -2,8 +2,6 @@
 
 [![download](https://img.shields.io/badge/Download-Ver1.00-blue?style=for-the-badge)](https://github.com/peke-pon/Cider/archive/master.zip)
 
-![screenshot](https://github.com/peke-pon/stock/blob/master/Cider.png?raw=true)
-
 [ Demo ➞](https://peke-pon.github.io/Cider/) <https://peke-pon.github.io/Cider/> 
 
 ## 概要
