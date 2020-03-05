@@ -1,6 +1,6 @@
 # Cider.
 
-[![download](https://img.shields.io/badge/Download-Ver1.00-blue?style=for-the-badge)](https://github.com/peke-pon/Cider/archive/master.zip)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58ebf095-4f83-440a-b9a1-4611e5c91a76/deploy-status)](https://app.netlify.com/sites/test-board/deploys)
 
 [ Demo ➞](https://peke-pon.github.io/Cider/) <https://peke-pon.github.io/Cider/> 
 
