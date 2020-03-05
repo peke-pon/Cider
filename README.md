@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58ebf095-4f83-440a-b9a1-4611e5c91a76/deploy-status)](https://app.netlify.com/sites/test-board/deploys)
 
-[ Demo ➞](https://peke-pon.github.io/Cider/) <https://peke-pon.github.io/Cider/> 
+[ Demo ➞](https://cidar.netlify.com) <https://cidar.netlify.com> 
 
 ## 概要
 
